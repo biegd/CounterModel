@@ -240,7 +240,22 @@ public class Etikett : IDruckbar
 4. <strong>MVVM und Events:</strong> Viele .NET-Funktionen (z.B. Datenbindung mit `INotifyPropertyChanged`) basiereen auf `Interfaces`
 
 
-<h2
+<h2>Alltagsanalogie</h2>
+
+Ein Interface wie eine <strong>Steckdose:</strong>
+- Sie legt fest: So sieht der Anschluss aus
+- Du kannst verschiedene Geräte anschließen, solange sie passen
+- Was das Gerät tut, bleibt ihm überlassen
+
+<h2>Fazit</h2>
+Ein <strong>Interface</strong> ist:
+
+| <strong>Merkmal</strong>              | <strong>Bedeutung</strong>           |
+|:--------------------------------------|:-------------------------------------|
+| <strong>Vertrag</strong>              | Legt fest, was die Klasse können muss|
+| <strong>Keine Implementierung</strong>| Nur Methodensignaturen, keine Logik  |
+| <strong>Flexibilität</strong>         | Macht Code flexibel, erweiterbar, <br>testbar|
+| <strong>Wichtig für MVVM</strong>     | z.B. `INotifyPropertyChanged`, `ICommand`<br> `IDisposable`|
 
 
 
